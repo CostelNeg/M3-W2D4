@@ -1,0 +1,35 @@
+* {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.navbar-brand img {
+  width: 2em;
+}
+.jumbo {
+  background-image: url(/assets//img/tropical-idyllic-ocean-blue-sky-beautiful-beach_198067-162429.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 20em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.imgDayOffert {
+  width: 100%;
+  
+}
+.offertDay {
+  display: flex;
+  height: 30em;
+  align-items: center;
+  justify-content: space-around;
+}
+@media screen and (max-width: 600px) {
+  .offertDay {
+    display: none;
+  }
+}
+.summerOfferts .card{
+    box-shadow: 5px 5px 5px 5px rgb(174, 130, 216);
+}
